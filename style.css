@@ -1,0 +1,60 @@
+*{box-sizing: border-box;
+
+}
+
+body{
+    font-family: 'Epilogue', sans-serif;
+    margin: 0 ;
+    background-image:url('/images/bg.jpg');
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.fatima{
+    /* mix-blend-mode:multiply; */
+    background-image:url('/images/ftoma.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 500px;
+    height: 500px;
+    color: #5a2c3d;
+    text-align: center;
+
+}
+
+.fatima h1{
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+
+
+
+
+.count-container{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.big-text{
+    font-size: 4rem;
+    line-height: 1;
+    margin-top: 2rem;
+    margin-bottom: 0.1px;
+    font-weight: bold;
+
+}
+
+.cd-el span{
+    text-align: center;
+    font-size: 1.3rem;
+}
